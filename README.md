@@ -29,7 +29,7 @@ house.to_json  # => %({"address":"Crystal Road 1234","location":{"lat":12.3,"lng
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/json-mapping.
+Bug reports and pull requests are welcome on GitHub at https://github.com/Kjarrigan/json-mapping.
 
 ## License
 
