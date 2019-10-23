@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 RSpec.describe JSON::Mapping do
-  it "has a version number" do
+  it 'has a version number' do
     expect(JSON::Mapping::VERSION).not_to be nil
   end
 
@@ -7,7 +9,7 @@ RSpec.describe JSON::Mapping do
     JSON.mapping(
       self,
       lat: Float,
-      lng: Float,
+      lng: Float
     )
   end
 
@@ -15,7 +17,7 @@ RSpec.describe JSON::Mapping do
     JSON.mapping(
       self,
       address: String,
-      location: Location,
+      location: Location
     )
   end
 
